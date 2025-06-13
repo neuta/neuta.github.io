@@ -3328,3 +3328,37 @@ input, select, textarea {
 
 	}
 
+/* ----- cursos ----- */
+.course-list {
+	margin-left: 1rem;                 /* indentación agradable */
+	line-height: 1.55rem;
+	list-style: disc;
+  }
+  
+  .course-list li {
+	margin-bottom: .6rem;
+  }
+  
+  .course-list li strong {             /* título del curso */
+	font-weight: 600;                  /* más marcado */
+	color: #1f1e1e;                       /* negro (o el que uses para texto principal) */
+  }
+  
+  .course-list li span {               /* descripción */
+	color: #666;                       /* gris medio → “más claro” */
+	font-weight: 400;
+  }
+
+
+  /* ----- MIT section ----- */
+
+  .media-section {
+	text-align: center;        /* centra todo el bloque */
+	margin: 2rem 0;            /* margen vertical superior e inferior */
+  }
+
+  .media-caption {
+	font-size: 1.3rem;         /* un poco más grande */
+	font-weight: 600;          /* seminegrita */
+	margin-bottom: 1.5rem;     /* espacio antes de las fotos */
+  }
